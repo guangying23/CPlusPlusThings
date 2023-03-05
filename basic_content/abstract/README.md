@@ -34,7 +34,7 @@ public:
 // A为抽象类
 class A {
 public:
-    virtual void f() = 0;  // 纯虚函数
+    virtual void f() = 0;  // 构造纯虚函数的格式，虚函数可以实现，纯虚函数只能在派生类中实现。
     void g(){ this->f(); }
     A(){}  // 构造函数
 };
