@@ -260,7 +260,7 @@ int main()
 
 // source2.cpp
 #include <cstdio>
-extern char* msg;
+extern const char* msg;
 void sayHello()
 {
     printf("%s", msg);
