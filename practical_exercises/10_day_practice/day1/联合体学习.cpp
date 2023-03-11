@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//相同的内存地址
+//成员从相同的内存地址开始
 union myun 
 {
     struct { int x; int y; int z; }u; 
